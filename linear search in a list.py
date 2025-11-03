@@ -7,6 +7,7 @@ nlist.append(100)
 #Using linear search to find the certain integer
 
 searchTerm = 21
+#Flag
 found = False
 
 for x in range(len(nlist)):
@@ -21,3 +22,4 @@ if (found == True):
     print('Found data item')
 else:
     print('Not found data item')
+
